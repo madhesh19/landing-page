@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #1f2937;
+  padding: 30px 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+.content{
+  padding-top: 150px;
+}
+
+.content h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.content p{
+  font-size: 18px;
+  color: white;
+}
+
+.btn{
+  padding: 6px;
+  width: 100px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.image{
+  max-width: 40%;
+  float: right;
+  margin-right: 70px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937
+}
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-top: 32px;
+}
+
+.container {
+  background-color: white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 65px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.quote{
+  background-color: #e5e7eb;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.quote p{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.modal {
+  background-color: white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #3882f6;
+  width: 45%;
+  height: 30%;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_header p, h3{
+  float: left;
+  margin-left: 50px;
+}
+
+.card_header h3{
+  color: white;
+
+}
+
+.card_header p{
+  color: #c1d0e6;
+}
+
+.card-btn{
+  margin-right: 8em;
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.footer {
+  height: 72px;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p{
+  color: white;
+  font-size: 16px;
+}
